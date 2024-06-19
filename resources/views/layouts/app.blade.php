@@ -71,10 +71,10 @@
 
                             <li class="sn-user">
                                 <span class="sn-user-img">
-                                    <img src="{{ asset("storage/$user?->profile_pic") }}" alt="Image">
+                                    <img src="">
                                 </span>
                                 <span class="sn-user-name">
-                                    {{ $user?->name }}
+                                    tes
                                 </span>
                                 <a href="#" class="sn-cv-link common-color">download cv</a>
                             </li>
