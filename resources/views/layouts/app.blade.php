@@ -44,6 +44,156 @@
 
 <body class="clearfix">
     <div data-scroll='0' class="thetop"></div>
+    <!-- ==================== header-section start ==================== -->
+    <header id="header-section" class="header-section mb-30 clearfix">
+        <div class="">
+            <nav class="main-nav">
+                <div class="nav-wrapper main-nav-wrapper">
+
+                    <ul class="alternative-menu ul-li responsive_menu_fixed">
+
+                        <li class="alt-search-area">
+                            <form action="#">
+                                <input class="alternative-search" type="search" placeholder="search">
+                                <button><i class="fa fa-search"></i></button>
+                            </form>
+                        </li>
+
+                        <li class="side-menu-btn right">
+                            <a href="#" class="button-collapse waves-effect default" data-activates="mobile-demo">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.alternative-menu -->
+                    <div class=" hello_icon_menu hello_single_index_menu1">
+                        <ul class="ul-li-block side-nav" id="mobile-demo">
+
+                            <li class="sn-user">
+                                <span class="sn-user-img">
+                                    <img src="{{ asset("storage/$user?->profile_pic") }}" alt="Image">
+                                </span>
+                                <span class="sn-user-name">
+                                    {{ $user?->name }}
+                                </span>
+                                <a href="#" class="sn-cv-link common-color">download cv</a>
+                            </li>
+                            <!-- /.sn-user -->
+
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-home" aria-hidden="true"></i> Home
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i> About
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Skills
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i> Portfolio
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i> Testimolial
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-pencil" aria-hidden="true"></i> Experience
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog
+                                </a>
+                            </li>
+                            <li class="sn-item">
+                                <a href="" class="waves-effect">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i> Contant
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hello_main_navigation hello_single_index_menu2">
+                        <ul id="nav-mobile" class="right main-nav-ul">
+                            <li class="active"><a href="" class="nav-mobile">home</a></li>
+                            <li><a href="" class="waves-effect default">about</a></li>
+                            <li><a href="" class="waves-effect default">skill</a></li>
+                            <li><a href="" class="waves-effect default">education</a></li>
+                            <li><a href="" class="waves-effect default">portfolio</a></li>
+                            <li><a href="" class="waves-effect default">testimonial</a></li>
+                            <li><a href="" class="waves-effect default">exprience</a></li>
+                            <li><a href="" class="waves-effect default">blog</a></li>
+                            <li><a href="" class="waves-effect default">contact</a></li>
+                            <li>
+                                <a href="" class="waves-effect default cd-search-trigger">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- /.main-nav-ul -->
+                    <div class="hello_menu_fixed_main_wrapper">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <div class="hello_logo_wrapper">
+                                    <div class="hello_logo">
+                                        <img src="{{ asset('import/assets/images/logo.png') }}" alt="hello_logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                                <div class="hello_fixed_nav_wrapper hello_single_index_menu3">
+                                    <ul class="hello_nav_fixed">
+                                        <li><a href="" class="nav-mobile">home</a></li>
+                                        <li><a href="" class="waves-effect default">about</a></li>
+                                        <li><a href="" class="waves-effect default">skill</a></li>
+                                        <li><a href="" class="waves-effect default">education</a></li>
+                                        <li><a href="" class="waves-effect default">portfolio</a></li>
+                                        <li><a href="" class="waves-effect default">testimonial</a></li>
+                                        <li><a href="" class="waves-effect default">exprience</a></li>
+                                        <li><a href="" class="waves-effect default">blog</a></li>
+                                        <li><a href="" class="waves-effect default">contact</a></li>
+                                        <li>
+                                            <a href="" class="waves-effect default cd-search-trigger">
+                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.main-nav-wrapper -->
+            </nav>
+        </div>
+        <!-- /.
+			-->
+
+        <div id="cd-search" class="cd-search">
+            <form action="#">
+                <input type="search" placeholder="Search...">
+            </form>
+        </div>
+
+    </header>
+    <!-- /#header-section -->
+    <!-- ==================== header-section end ==================== -->
     @yield('content')
 
     <!-- JavaScript Libraries -->

@@ -11,7 +11,7 @@
         <!-- /.profile-image -->
 
         <div class="profile-name center-align">
-            <h1 class="user-name">Akshay Handge</h1>
+            <h1 class="user-name">Noto Sp</h1>
             <p>
                 <span class="photoshop-color">UI/UX Designer</span> in Dewas
             </p>
@@ -77,157 +77,6 @@
 <!-- ========== ========== right side body start ========== ========== -->
 <div class="right-side-body">
 
-    <!-- ==================== header-section start ==================== -->
-    <header id="header-section" class="header-section mb-30 clearfix">
-        <div class="">
-            <nav class="main-nav">
-                <div class="nav-wrapper main-nav-wrapper">
-
-                    <ul class="alternative-menu ul-li responsive_menu_fixed">
-
-                        <li class="alt-search-area">
-                            <form action="#">
-                                <input class="alternative-search" type="search" placeholder="search">
-                                <button><i class="fa fa-search"></i></button>
-                            </form>
-                        </li>
-
-                        <li class="side-menu-btn right">
-                            <a href="#" class="button-collapse waves-effect default" data-activates="mobile-demo">
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.alternative-menu -->
-                    <div class=" hello_icon_menu hello_single_index_menu1">
-                        <ul class="ul-li-block side-nav" id="mobile-demo">
-
-                            <li class="sn-user">
-                                <span class="sn-user-img">
-                                    <img src="{{ asset('import/assets/images/akshay1.png') }}" alt="Image">
-                                </span>
-                                <span class="sn-user-name">
-                                    Akshay
-                                </span>
-                                <a href="#" class="sn-cv-link common-color">download cv</a>
-                            </li>
-                            <!-- /.sn-user -->
-
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/0" class="waves-effect">
-                                    <i class="fa fa-home" aria-hidden="true"></i> Home
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/1" class="waves-effect">
-                                    <i class="fa fa-user-o" aria-hidden="true"></i> About
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/2" class="waves-effect">
-                                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Skills
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/3" class="waves-effect">
-                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/4" class="waves-effect">
-                                    <i class="fa fa-briefcase" aria-hidden="true"></i> Portfolio
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/5" class="waves-effect">
-                                    <i class="fa fa-quote-left" aria-hidden="true"></i> Testimolial
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/6" class="waves-effect">
-                                    <i class="fa fa-pencil" aria-hidden="true"></i> Experience
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/7" class="waves-effect">
-                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog
-                                </a>
-                            </li>
-                            <li class="sn-item">
-                                <a href="http://webstrot.com/html/myporto/light_version/8" class="waves-effect">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i> Contant
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="hello_main_navigation hello_single_index_menu2">
-                        <ul id="nav-mobile" class="right main-nav-ul">
-                            <li class="active"><a href="http://webstrot.com/html/myporto/light_version/0" class="nav-mobile">home</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/1" class="waves-effect default">about</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/2" class="waves-effect default">skill</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/3" class="waves-effect default">education</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/4" class="waves-effect default">portfolio</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/5" class="waves-effect default">testimonial</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/6" class="waves-effect default">exprience</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/7" class="waves-effect default">blog</a></li>
-                            <li><a href="http://webstrot.com/html/myporto/light_version/8" class="waves-effect default">contact</a></li>
-                            <li>
-                                <a href="http://webstrot.com/html/myporto/light_version/0" class="waves-effect default cd-search-trigger">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- /.main-nav-ul -->
-                    <div class="hello_menu_fixed_main_wrapper">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                                <div class="hello_logo_wrapper">
-                                    <div class="hello_logo">
-                                        <img src="{{ asset('import/assets/images/logo.png') }}" alt="hello_logo">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                <div class="hello_fixed_nav_wrapper hello_single_index_menu3">
-                                    <ul class="hello_nav_fixed">
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/0" class="nav-mobile">home</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/1" class="waves-effect default">about</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/2" class="waves-effect default">skill</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/3" class="waves-effect default">education</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/4" class="waves-effect default">portfolio</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/5" class="waves-effect default">testimonial</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/6" class="waves-effect default">exprience</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/7" class="waves-effect default">blog</a></li>
-                                        <li><a href="http://webstrot.com/html/myporto/light_version/8" class="waves-effect default">contact</a></li>
-                                        <li>
-                                            <a href="http://webstrot.com/html/myporto/light_version/0" class="waves-effect default cd-search-trigger">
-                                                <i class="fa fa-search" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.main-nav-wrapper -->
-            </nav>
-        </div>
-        <!-- /.
-			-->
-
-        <div id="cd-search" class="cd-search">
-            <form action="#">
-                <input type="search" placeholder="Search...">
-            </form>
-        </div>
-
-    </header>
-    <!-- /#header-section -->
-    <!-- ==================== header-section end ==================== -->
-
     <!-- ==================== main-slider-section start ==================== -->
     <section id="main-slider-section" class="main-slider-section mb-30 clearfix">
 
@@ -238,7 +87,7 @@
                     <div class="col l6 m6">
                         <div class="item-child-left left-align">
                             <h2 class="hi">hello.</h2>
-                            <p class="name">My name is Akshay</p>
+                            <p class="name">My name is Noto</p>
                             <small class="position mb-30">& I am absolutely design addicted</small>
 
                             <a href="#!" class="custom-btn waves-effect waves-light">
@@ -270,7 +119,7 @@
                     <div class="col l6 m6">
                         <div class="item-child-left left-align">
                             <h2 class="hi">hello.</h2>
-                            <p class="name">My name is Akshay</p>
+                            <p class="name">My name is Noto</p>
                             <small class="position mb-30">& I am absolutely design addicted</small>
 
                             <a href="#!" class="custom-btn waves-effect waves-light">
@@ -302,7 +151,7 @@
                     <div class="col l6 m6">
                         <div class="item-child-left left-align">
                             <h2 class="hi">hello.</h2>
-                            <p class="name">My name is Akshay</p>
+                            <p class="name">My name is Noto</p>
                             <small class="position mb-30">& I am absolutely design addicted</small>
 
                             <a href="#!" class="custom-btn waves-effect waves-light">
@@ -344,7 +193,7 @@
             </h2>
             <span>about me</span>
             <p>
-                Hello,I’m Akshay Handge Creative Graphic Designer & User Experience Desiger based in Website, I create digital Products a more Beautiful and usable place. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+                Hello,I’m Noto Handge Creative Graphic Designer & User Experience Desiger based in Website, I create digital Products a more Beautiful and usable place. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
             </p>
         </div>
         <!-- /.Section-title -->
@@ -389,12 +238,12 @@
                                 <tr>
                                     <td class="td-w25">Full Name</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">Akshay Handge</td>
+                                    <td class="td-w65">Noto</td>
                                 </tr>
                                 <tr>
                                     <td class="td-w25">Father's Name</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">Mr. Deepak Handge</td>
+                                    <td class="td-w65">Mr. Deepak</td>
                                 </tr>
                                 <tr>
                                     <td class="td-w25">Address</td>
@@ -854,95 +703,17 @@
                     <!-- /.testomonial-contant -->
                 </div>
                 <!-- /.item -->
-
-                <div class="item">
-                    <div class="testomonial-img">
-                        <img src="{{ asset('import/assets/images/testomonial/testomonial-img3.jpg') }}" alt="Image">
-                    </div>
-                    <!-- /.testomonial-img -->
-
-                    <div class="testomonial-contant">
-                        <h2>
-                            Collis Ta'eed <span>(CEO at ABC)</span>
-                        </h2>
-                        <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        </p>
-                        <a href="#" class="common-color">https:example.com</a>
-                    </div>
-                    <!-- /.testomonial-contant -->
-                </div>
-                <!-- /.item -->
-
-                <div class="item">
-                    <div class="testomonial-img">
-                        <img src="{{ asset('import/assets/images/testomonial/testomonial-img4.jpg') }}" alt="Image">
-                    </div>
-                    <!-- /.testomonial-img -->
-
-                    <div class="testomonial-contant">
-                        <h2>
-                            Collis Ta'eed <span>(CEO at ABC)</span>
-                        </h2>
-                        <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        </p>
-                        <a href="#" class="common-color">https:example.com</a>
-                    </div>
-                    <!-- /.testomonial-contant -->
-                </div>
-                <!-- /.item -->
-
-                <div class="item">
-                    <div class="testomonial-img">
-                        <img src="{{ asset('import/assets/images/testomonial/testomonial-img5.jpg') }}" alt="Image">
-                    </div>
-                    <!-- /.testomonial-img -->
-
-                    <div class="testomonial-contant">
-                        <h2>
-                            Collis Ta'eed <span>(CEO at ABC)</span>
-                        </h2>
-                        <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        </p>
-                        <a href="#" class="common-color">https:example.com</a>
-                    </div>
-                    <!-- /.testomonial-contant -->
-                </div>
-                <!-- /.item -->
             </div>
         </div>
         <!-- /#testomonial-carousel -->
 
-        <ul class="brand-list ul-li">
+        <!-- <ul class="brand-list ul-li">
             <li>
                 <a href="#!">
                     <img src="{{ asset('import/assets/images/brand/brand1.png') }}" alt="Brand Image">
                 </a>
             </li>
-            <li>
-                <a href="#!">
-                    <img src="{{ asset('import/assets/images/brand/brand2.png') }}" alt="Brand Image">
-                </a>
-            </li>
-            <li>
-                <a href="#!">
-                    <img src="{{ asset('import/assets/images/brand/brand3.png') }}" alt="Brand Image">
-                </a>
-            </li>
-            <li>
-                <a href="#!">
-                    <img src="{{ asset('import/assets/images/brand/brand4.png') }}" alt="Brand Image">
-                </a>
-            </li>
-            <li>
-                <a href="#!">
-                    <img src="{{ asset('import/assets/images/brand/brand5.png') }}" alt="Brand Image">
-                </a>
-            </li>
-        </ul>
-
+        </ul> -->
     </div>
     <!-- /.testomonials-section -->
     <!-- ==================== testomonials-section end ==================== -->
@@ -1146,53 +917,7 @@
             <div class="news-contant right left-align">
                 <h2 class="title">Creative Deisng News</h2>
                 <ul class="post-mate2">
-                    <li class="pm-r25">By <a href="#">akshay</a></li>
-                    <li class="pm-r25">11 march 2017</li>
-                    <li class="pm-r25">4 comment</li>
-                </ul>
-                <p>
-                    Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh.
-                </p>
-                <a href="#!" class="custom-btn waves-effect waves-light">
-                    <i class="fa fa-address-book-o" aria-hidden="true"></i> Read More
-                </a>
-            </div>
-            <!-- /.news-contant -->
-        </div>
-        <!-- /.news-item -->
-
-        <div class="news-item clearfix">
-            <div class="news-image b4-2 right">
-                <img src="{{ asset('import/assets/images/news/news2.jpg') }}" alt="Image">
-            </div>
-            <!-- /.news-image -->
-            <div class="news-contant left right-align">
-                <h2 class="title">Creative Deisng News</h2>
-                <ul class="post-mate2">
-                    <li class="pm-r25">By <a href="#">akshay</a></li>
-                    <li class="pm-r25">11 march 2017</li>
-                    <li class="pm-r25">4 comment</li>
-                </ul>
-                <p>
-                    Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh.
-                </p>
-                <a href="#!" class="custom-btn waves-effect waves-light">
-                    <i class="fa fa-address-book-o" aria-hidden="true"></i> Read More
-                </a>
-            </div>
-            <!-- /.news-contant -->
-        </div>
-        <!-- /.news-item -->
-
-        <div class="news-item clearfix">
-            <div class="news-image b4-1 left">
-                <img src="{{ asset('import/assets/images/news/news3.jpg') }}" alt="Image">
-            </div>
-            <!-- /.news-image -->
-            <div class="news-contant right left-align">
-                <h2 class="title">Creative Deisng News</h2>
-                <ul class="post-mate2">
-                    <li class="pm-r25">By <a href="#">akshay</a></li>
+                    <li class="pm-r25">By <a href="#">Noto</a></li>
                     <li class="pm-r25">11 march 2017</li>
                     <li class="pm-r25">4 comment</li>
                 </ul>
@@ -1214,8 +939,6 @@
 
             <li class="waves-effect"><a href="#!">01</a></li>
             <li class="active"><a href="#!">02</a></li>
-            <li class="waves-effect"><a href="#!">03</a></li>
-
             <li class="right-arrow waves-effect right">
                 <a href="#!"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
             </li>
