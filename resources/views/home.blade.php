@@ -6,14 +6,14 @@
 <div class="fixed-left-side-body">
     <div class="profile">
         <div class="profile-image center-align">
-            <img src="{{ asset('import/assets/images/akshay2.png') }}" alt="Image">
+            <img src="{{ asset("storage/$setting->about_photo") }}" alt="">
         </div>
         <!-- /.profile-image -->
 
         <div class="profile-name center-align">
-            <h1 class="user-name">Noto Sp</h1>
+            <h1 class="user-name">{{ $user?->name }}</h1>
             <p>
-                <span class="photoshop-color">UI/UX Designer</span> in Dewas
+                <span class="photoshop-color">{{$user?->degree}}</span>
             </p>
         </div>
         <!-- /.profile-name -->
@@ -87,7 +87,7 @@
                     <div class="col l6 m6">
                         <div class="item-child-left left-align">
                             <h2 class="hi">hello.</h2>
-                            <p class="name">My name is Noto</p>
+                            <p class="name">My name is {{ $user?->name }}</p>
                             <small class="position mb-30">& I am absolutely design addicted</small>
 
                             <a href="#!" class="custom-btn waves-effect waves-light">
@@ -100,7 +100,7 @@
 
                     <div class="col l6 m6">
                         <div class="item-child-right right-align">
-                            <img src="{{ asset('import/assets/images/akshay1.png') }}" alt="Image">
+                            <img src="{{ asset("storage/$setting->about_photo") }}" alt="">
                             <a href="#" class="chat waves-effect waves-light">
                                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
                             </a>
@@ -119,7 +119,7 @@
                     <div class="col l6 m6">
                         <div class="item-child-left left-align">
                             <h2 class="hi">hello.</h2>
-                            <p class="name">My name is Noto</p>
+                            <p class="name">My name is {{ $user?->name }}</p>
                             <small class="position mb-30">& I am absolutely design addicted</small>
 
                             <a href="#!" class="custom-btn waves-effect waves-light">
@@ -132,7 +132,7 @@
 
                     <div class="col l6 m6">
                         <div class="item-child-right right-align">
-                            <img src="{{ asset('import/assets/images/akshay1.png') }}" alt="Image">
+                            <img src="{{ asset("storage/$setting->about_photo") }}" alt="">
                             <a href="#" class="chat waves-effect waves-light">
                                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
                             </a>
@@ -151,7 +151,7 @@
                     <div class="col l6 m6">
                         <div class="item-child-left left-align">
                             <h2 class="hi">hello.</h2>
-                            <p class="name">My name is Noto</p>
+                            <p class="name">My name is {{ $user?->name }}</p>
                             <small class="position mb-30">& I am absolutely design addicted</small>
 
                             <a href="#!" class="custom-btn waves-effect waves-light">
@@ -164,7 +164,7 @@
 
                     <div class="col l6 m6">
                         <div class="item-child-right right-align">
-                            <img src="{{ asset('import/assets/images/akshay1.png') }}" alt="Image">
+                            <img src="{{ asset("storage/$setting->about_photo") }}" alt="">
                             <a href="#" class="chat waves-effect waves-light">
                                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
                             </a>
@@ -621,35 +621,6 @@
                         </p>
                     </div>
                     <!-- /.achivement -->
-
-                    <div class="achivement">
-                        <h2 class="title">
-                            <span class="thumb">
-                                02
-                            </span>
-                            <!-- /.thumb -->
-                            The Web Awards
-                        </h2>
-                        <p>
-                            Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum.
-                        </p>
-                    </div>
-                    <!-- /.achivement -->
-
-                    <div class="achivement">
-                        <h2 class="title">
-                            <span class="thumb">
-                                03
-                            </span>
-                            <!-- /.thumb -->
-                            Logo Design
-                        </h2>
-                        <p>
-                            Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum.
-                        </p>
-                    </div>
-                    <!-- /.achivement -->
-
                 </div>
                 <!-- /.experience-right -->
             </div>
@@ -684,7 +655,7 @@
             <div class="news-contant right left-align">
                 <h2 class="title">Creative Deisng News</h2>
                 <ul class="post-mate2">
-                    <li class="pm-r25">By <a href="#">Noto</a></li>
+                    <li class="pm-r25">By <a href="#">{{ $user?->name }}</a></li>
                     <li class="pm-r25">11 march 2017</li>
                     <li class="pm-r25">4 comment</li>
                 </ul>
@@ -725,7 +696,7 @@
             </h2>
             <span>contact me</span>
             <p>
-                Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+                testing description
             </p>
         </div>
         <!-- /.Section-title -->
@@ -737,15 +708,7 @@
                     <div class="cont-item phone">
                         <h2 class="title mb-30">phone</h2>
                         <div class="cont-numbers">
-                            <p>
-                                <span>Mob.</span>+0 123456789
-                            </p>
-                            <p>
-                                <span>Landline</span>+0 123456789
-                            </p>
-                            <p>
-                                <span>Skype</span>webstrot
-                            </p>
+                            <p> {{$user?->phone}} </p>
                         </div>
                         <!-- /.cont-numbers -->
                     </div>
@@ -754,8 +717,7 @@
                     <div class="cont-item email">
                         <h2 class="title mb-30">email</h2>
                         <div class="cont-numbers">
-                            <p>support@example.com</p>
-                            <p>support@example.com</p>
+                            <p>{{ $user?->email }}</p>
                         </div>
                         <!-- /.cont-numbers -->
                     </div>
@@ -764,8 +726,7 @@
                     <div class="cont-item address">
                         <h2 class="title mb-30">address</h2>
                         <div class="cont-numbers">
-                            <p>Street 110-B Kalani Bag, Dewas, M.P. INDIA</p>
-                            <p><a href="#" class="photoshop-color">https:example.com</a></p>
+                            <p>{{ $user?->address }}</p>
                         </div>
                         <!-- /.cont-numbers -->
                     </div>
