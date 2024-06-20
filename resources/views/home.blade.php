@@ -6,7 +6,7 @@
 <div class="fixed-left-side-body">
     <div class="profile">
         <div class="profile-image center-align">
-            <img class="img-fluid w-100 rounded-circle shadow-sm" src="{{ asset("storage/$user?->profile_pic") }}" alt="">
+            <img src="{{ asset('import/assets/images/Nsp2.png') }}" alt="Image">
         </div>
         <!-- /.profile-image -->
 
@@ -100,7 +100,7 @@
 
                     <div class="col l6 m6">
                         <div class="item-child-right right-align">
-                            <img class="img-fluid w-100 rounded-circle shadow-sm" src="{{ asset("storage/$user?->profile_pic") }}" alt="">
+                            <img src="{{ asset('import/assets/images//Nsp.jpg') }}" alt="Image">
                             <a href="#" class="chat waves-effect waves-light">
                                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
                             </a>
@@ -132,7 +132,7 @@
 
                     <div class="col l6 m6">
                         <div class="item-child-right right-align">
-                            <img class="img-fluid w-100 rounded-circle shadow-sm" src="{{ asset("storage/$user?->profile_pic") }}" alt="">
+                            <img src="{{ asset('import/assets/images//Nsp.jpg') }}" alt="Image">
                             <a href="#" class="chat waves-effect waves-light">
                                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
                             </a>
@@ -164,7 +164,7 @@
 
                     <div class="col l6 m6">
                         <div class="item-child-right right-align">
-                            <img class="img-fluid w-100 rounded-circle shadow-sm" src="{{ asset("storage/$user?->profile_pic") }}" alt="">
+                            <img src="{{ asset('import/assets/images//Nsp.jpg') }}" alt="Image">
                             <a href="#" class="chat waves-effect waves-light">
                                 <i class="fa fa-commenting-o" aria-hidden="true"></i>
                             </a>
@@ -293,7 +293,8 @@
             </h2>
             <span>My Skills</span>
             <p>
-                description skill
+                Saya memiliki berbagai keahlian yang telah dikembangkan dan diasah melalui berbagai pengalaman profesional dan proyek pribadi.
+                Berikut adalah beberapa kemampuan utama yang saya miliki:
             </p>
         </div>
         <!-- /.Section-title -->
@@ -343,7 +344,8 @@
                                                 <div class="lang-skill-left">
                                                     <h2 class="title mb-30">languages skills</h2>
                                                     <p class="mb-30">
-                                                        nec sagittis sem nibh id elit. Duis sed odio sit.
+                                                        Bahasa Indonesia: Bahasa ibu, digunakan dalam semua konteks kehidupan sehari-hari dan profesional.
+                                                        Bahasa Inggris: Tingkat pemula hingga menengah, mampu berkomunikasi dalam situasi dasar dan memahami teks sederhana.
                                                     </p>
                                                 </div>
                                                 <!-- /.lang-skill-left -->
@@ -423,13 +425,15 @@
                                         </h2>
                                         <span>My Portfolio</span>
                                         <p>
-                                            Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+                                            Dengan latar belakang yang kuat dalam Teknik Informatika atau dalam dunia IT,
+                                            saya memiliki lebih dari 4 tahun pengalaman dalam bidang IT khusunya pengembangan aplikasi.
+                                            Saya terbiasa dalam hal analisa, perencanaan, pengembangan, support dan maintenance dalam pengambangan aplikasi.
+                                            Saya bersemangat tentang dalam hal teknologidan selalu siap untuk tantangan baru.
                                         </p>
                                     </div>
                                     <!-- /.Section-title -->
 
                                     <div class="portfolio-area">
-
                                         <div id="filters" class="button-group">
                                             <button class="button waves-effect default is-checked" data-filter="*">all</button>
                                             <button class="button waves-effect default" data-filter=".metal">logos</button>
@@ -442,7 +446,7 @@
                                         <div class="grid">
                                             <div class="element-item transition metal" data-category="transition">
                                                 <div class="ei-child">
-                                                    <img src="{{ asset('import/assets/images/portfolio/img-1.jpg') }}" alt="Image">
+                                                    <img src="{{ asset('import/assets/images//img-1.jpg') }}" alt="Image">
                                                     <a href="#" class="more">
                                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                                     </a>
@@ -450,7 +454,7 @@
                                             </div>
                                             <div class="element-item metalloid" data-category="metalloid">
                                                 <div class="ei-child">
-                                                    <img src="{{ asset('import/assets/images/portfolio/img-2.jpg') }}" alt="Image">
+                                                    <img src="{{ asset('import/assets/images//img-2.jpg') }}" alt="Image">
                                                     <a href="#" class="more">
                                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                                     </a>
@@ -458,7 +462,7 @@
                                             </div>
                                             <div class="element-item transition metal" data-category="transition">
                                                 <div class="ei-child">
-                                                    <img src="{{ asset('import/assets/images/portfolio/img-5.jpg') }}" alt="Image">
+                                                    <img src="{{ asset('import/assets/images//img-5.jpg') }}" alt="Image">
                                                     <a href="#" class="more">
                                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                                     </a>
@@ -466,7 +470,7 @@
                                             </div>
                                             <div class="element-item alkali metal" data-category="alkali">
                                                 <div class="ei-child">
-                                                    <img src="{{ asset('import/assets/images/portfolio/img-6.jpg') }}" alt="Image">
+                                                    <img src="{{ asset('import/assets/images//img-6.jpg') }}" alt="Image">
                                                     <a href="#" class="more">
                                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                                     </a>
@@ -495,7 +499,7 @@
                                         </h2>
                                         <span>Work Experience</span>
                                         <p>
-                                            testing
+                                            Dalam karier saya, saya telah mengambil peran penting di berbagai perusahaan dan proyek. Setiap posisi memberikan saya wawasan baru dan memperkuat kemampuan saya untuk bekerja secara efektif dan efisien. Berikut adalah beberapa pengalaman kerja utama saya.
                                         </p>
                                     </div>
                                     <!-- /.Section-title -->
@@ -629,7 +633,7 @@
                                         </h2>
                                         <span>contact me</span>
                                         <p>
-                                            testing description
+                                            Apakah Anda memiliki pertanyaan atau ide yang ingin dibagikan? Saya selalu siap mendengar dan berdiskusi. Hubungi saya melalui email atau telepon, dan mari kita lihat bagaimana kita bisa bekerja sama atau saling membantu.
                                         </p>
                                     </div>
                                     <!-- /.Section-title -->
