@@ -40,6 +40,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('import/assets/css/reset.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('import/assets/css/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('import/assets/css/responsive.css') }}">
+    <style>
+        .progress-bar {
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body class="clearfix">
