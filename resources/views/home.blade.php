@@ -57,9 +57,9 @@
         </ul>
 
         <div class="discription clearfix">
-            <h2 class="title mb-30">what's in my mind</h2>
-            <p>
-                We can develop and design anything beyond your ima gination. About our work, we don’t say anything bec ause our work speaks. For more, you can ask our clie nts and they will tell you how much satisfied they are with our services. So, what are you waiting for?
+            <h2 class="title mb-30">{{ $setting->about_title }}</h2>
+            <p style="text-align: justify;">
+                If you are interested in my CV, please contact me via the details provided below.
             </p>
         </div>
         <!-- /.discription -->
@@ -193,7 +193,7 @@
             </h2>
             <span>about me</span>
             <p>
-                Hello,I’m Noto Handge Creative Graphic Designer & User Experience Desiger based in Website, I create digital Products a more Beautiful and usable place. This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+                {{ $setting->about_description }}
             </p>
         </div>
         <!-- /.Section-title -->
@@ -238,39 +238,38 @@
                                 <tr>
                                     <td class="td-w25">Full Name</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">Noto</td>
+                                    <td class="td-w65">{{ $user?->name }}</td>
                                 </tr>
                                 <tr>
-                                    <td class="td-w25">Father's Name</td>
+                                    <td class="td-w25">Birth Day</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">Mr. Deepak</td>
+                                    <td class="td-w65"> {{ $user?->birth_day }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-w25">Degree</td>
+                                    <td class="td-w10">:</td>
+                                    <td class="td-w65">{{ $user?->degree }}</td>
                                 </tr>
                                 <tr>
                                     <td class="td-w25">Address</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">Street 110-B Kalani Bag, Dewas, M.P. INDIA</td>
-                                </tr>
-                                <tr>
-                                    <td class="td-w25">Zip Code</td>
-                                    <td class="td-w10">:</td>
-                                    <td class="td-w65">12345</td>
+                                    <td class="td-w65">{{ $user?->address }}</td>
                                 </tr>
                                 <tr>
                                     <td class="td-w25">Phone</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">+0 123456789 , +0 123456789</td>
+                                    <td class="td-w65">{{ $user?->phone }}</td>
                                 </tr>
                                 <tr>
                                     <td class="td-w25">Email</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">support@example.com</td>
+                                    <td class="td-w65">{{ $user?->email }}</td>
                                 </tr>
                                 <tr>
-                                    <td class="td-w25">Website</td>
+                                    <td class="td-w25">Experience</td>
                                     <td class="td-w10">:</td>
-                                    <td class="td-w65">http://example.com</td>
+                                    <td class="td-w65">{{ $user?->experience }} Years</td>
                                 </tr>
-
                             </tbody>
                         </table>
                     </div>
@@ -281,23 +280,6 @@
             <!-- row -->
         </div>
         <!-- /.personal-details-area -->
-
-        <div class="success">
-            <div class="success-child-left">
-                <i class="fa fa-picture-o" aria-hidden="true"></i>
-                <p>
-                    Over Ten Year In The Game With 550+ Projects Successfuly Done!
-                </p>
-            </div>
-            <!-- /.success-child-left -->
-            <div class="success-child-right">
-                <a href="#!" class="hire-me waves-effect">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i> hire me
-                </a>
-            </div>
-            <!-- /.success-child-right -->
-        </div>
-        <!-- /.success -->
     </div>
     <!-- /.aboutme-section -->
     <!-- ==================== aboutme-section end ==================== -->
@@ -311,7 +293,7 @@
             </h2>
             <span>My Skills</span>
             <p>
-                Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+                description skill
             </p>
         </div>
         <!-- /.Section-title -->
