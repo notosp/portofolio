@@ -303,8 +303,6 @@
                 <li class="tab tag-item tag-icon">
                     <i class="fa fa-tags" aria-hidden="true"></i>
                 </li>
-                <li class="tab tag-item"><a href="#">#graphicdesign</a></li>
-                <li class="tab tag-item"><a href="#" class="active">#photography</a></li>
                 <li class="tab tag-item"><a href="#">#technology</a></li>
                 <li class="tab tag-item"><a href="#">#design</a></li>
                 <li class="tab tag-item"><a href="#">#webdevelopment</a></li>
@@ -312,16 +310,14 @@
             </ul>
             <div id="graphicdesign">
                 <h2 class="title">professional skills</h2>
-
                 <div class="skill_progress">
-
                     <div class="row">
                         <div class="col l6 m6 s12">
                             <div class="single_experties">
-                                <div class="skilled-tittle">Photoshop</div>
+                                <div class="skilled-tittle">Database</div>
                                 <div class="progress">
                                     <div class="progress-bar photoshop-bg wow Rx-width-90 animated" role="progressbar" data-wow-duration="0.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="photoshop-color">90%</span>
+                                        <span class="photoshop-color">80%</span>
                                     </div>
                                 </div>
                             </div>
@@ -331,7 +327,7 @@
                                 <div class="skilled-tittle">Jquery</div>
                                 <div class="progress">
                                     <div class="progress-bar jquery-bg wow Rx-width-60 animated" role="progressbar" data-wow-duration="1s" data-wow-delay=".15s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="jquery-color">60%</span>
+                                        <span class="jquery-color">70%</span>
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +350,7 @@
                                 <div class="skilled-tittle">HTML5</div>
                                 <div class="progress">
                                     <div class="progress-bar html5-bg wow Rx-width-45 animated" role="progressbar" data-wow-duration="0.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="html5-color">45%</span>
+                                        <span class="html5-color">80%</span>
                                     </div>
                                 </div>
                             </div>
@@ -364,17 +360,17 @@
                                 <div class="skilled-tittle">Css3</div>
                                 <div class="progress">
                                     <div class="progress-bar css3-bg wow Rx-width-65 animated" role="progressbar" data-wow-duration="1s" data-wow-delay=".15s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="css3-color">65%</span>
+                                        <span class="css3-color">70%</span>
                                     </div>
                                 </div>
                             </div>
                             <!-- /single_experties -->
 
                             <div class="single_experties m-0">
-                                <div class="skilled-tittle">Marketing</div>
+                                <div class="skilled-tittle">Supporting</div>
                                 <div class="progress">
                                     <div class="progress-bar marketing-bg wow Rx-width-80 animated" role="progressbar" data-wow-duration="1.5s" data-wow-delay=".25s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="marketing-color">80%</span>
+                                        <span class="marketing-color">85%</span>
                                     </div>
                                 </div>
                             </div>
@@ -397,12 +393,9 @@
                 <div class="col l6 m12 s12">
                     <div class="lang-skill-left">
                         <h2 class="title mb-30">languages skills</h2>
-
                         <p class="mb-30">
-                            Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit.
+                            nec sagittis sem nibh id elit. Duis sed odio sit.
                         </p>
-
-                        <a href="#" class="common-color">https://www.youtube.com</a>
                     </div>
                     <!-- /.lang-skill-left -->
                 </div>
@@ -411,20 +404,13 @@
                     <div class="lang-skill-right">
                         <div class="skill-piechart">
                             <div class="first circle">
-                                <strong>HINDI</strong>
+                                <strong>Indonesia</strong>
                             </div>
                         </div>
                         <!-- /pie-chart -->
-
                         <div class="skill-piechart">
                             <div class="second circle">
                                 <strong>ENGLISH</strong>
-                            </div>
-                        </div>
-                        <!-- /pie-chart -->
-                        <div class="skill-piechart">
-                            <div class="third circle">
-                                <strong>DUTCH</strong>
                             </div>
                         </div>
                         <!-- /pie-chart -->
@@ -566,76 +552,6 @@
     <!-- /.my-portfolio-section -->
     <!-- ==================== my-portfolio-section end ==================== -->
 
-    <!-- ==================== testomonials-section start ==================== -->
-    <div data-scroll='5' class="testomonials-section sec-p100-bg-bs mb-30 clearfix" id="testimonial">
-
-        <div class="Section-title">
-            <h2>
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                testomonials
-            </h2>
-            <span>testomonials</span>
-            <p>
-                Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
-            </p>
-        </div>
-        <!-- /.Section-title -->
-        <div class="hello_testi_slider_wrapper">
-            <div id="testomonial-carousel" class="owl-carousel owl-theme">
-                <div class="item">
-
-                    <div class="testomonial-img">
-                        <img src="{{ asset('import/assets/images/testomonial/testomonial-img1.jpg') }}" alt="Image">
-                    </div>
-                    <!-- /.testomonial-img -->
-
-                    <div class="testomonial-contant">
-                        <h2>
-                            Collis Ta'eed <span>(CEO at ABC)</span>
-                        </h2>
-                        <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        </p>
-                        <a href="#" class="common-color">https:example.com</a>
-                    </div>
-
-                    <!-- /.testomonial-contant -->
-                </div>
-                <!-- /.item -->
-
-                <div class="item">
-                    <div class="testomonial-img">
-                        <img src="{{ asset('import/assets/images/testomonial/testomonial-img2.jpg') }}" alt="Image">
-                    </div>
-                    <!-- /.testomonial-img -->
-
-                    <div class="testomonial-contant">
-                        <h2>
-                            Collis Ta'eed <span>(CEO at ABC)</span>
-                        </h2>
-                        <p>
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        </p>
-                        <a href="#" class="common-color">https:example.com</a>
-                    </div>
-                    <!-- /.testomonial-contant -->
-                </div>
-                <!-- /.item -->
-            </div>
-        </div>
-        <!-- /#testomonial-carousel -->
-
-        <!-- <ul class="brand-list ul-li">
-            <li>
-                <a href="#!">
-                    <img src="{{ asset('import/assets/images/brand/brand1.png') }}" alt="Brand Image">
-                </a>
-            </li>
-        </ul> -->
-    </div>
-    <!-- /.testomonials-section -->
-    <!-- ==================== testomonials-section end ==================== -->
-
     <!-- ==================== experience-section start ==================== -->
     <div data-scroll='6' class="experience-section sec-p100-bg-bs mb-30 clearfix" id="exprience">
 
@@ -646,7 +562,7 @@
             </h2>
             <span>Work Experience</span>
             <p>
-                Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+                testing
             </p>
         </div>
         <!-- /.Section-title -->
@@ -656,85 +572,18 @@
                 <div class="experience-left">
                     <div class="experience-left-item-area">
                         <div class="border-left">
-
+                            @foreach ($experiences as $experience)
                             <div class="experience-item exp1">
-                                <h2 class="title">Web Designer at Microsoft Inc.</h2>
+                                <h2 class="title">{{ $experience->title }}</h2>
                                 <ul class="post-mate ul-li">
-                                    <li class="photoshop-color">Jun 2016 - <span class="current photoshop-bg">Current</span></li>
+                                    <li class="photoshop-color">{{ $experience->from }} - <span class="current photoshop-bg">{{ $experience->to }}</span></li>
                                 </ul>
                                 <!-- /.post-mate -->
                                 <p>
-                                    Working as Web Developer at MicroSoft. Leading the support administration and quality controlling of products submited by the global freelance authors.
+                                    {{ $experience->description }}
                                 </p>
-                                <a href="#" class="photoshop-color">https:example.com</a>
                             </div>
-                            <!-- /.experience-item -->
-
-                            <div class="experience-item exp2">
-                                <h2 class="title">Web Designer at Microsoft Inc.</h2>
-                                <ul class="post-mate ul-li">
-                                    <li class="jquery-color">Jun 2015 - july 2016</li>
-                                </ul>
-                                <!-- /.post-mate -->
-                                <p>
-                                    Working as Web Developer at MicroSoft. Leading the support administration and quality controlling of products submited by the global freelance authors.
-                                </p>
-                                <a href="#" class="jquery-color">https:example.com</a>
-                            </div>
-                            <!-- /.experience-item -->
-
-                            <div class="experience-item exp3">
-                                <h2 class="title">Web Designer at Microsoft Inc.</h2>
-                                <ul class="post-mate ul-li">
-                                    <li class="php-color">April 2014 - November 2015</li>
-                                </ul>
-                                <!-- /.post-mate -->
-                                <p>
-                                    Working as Web Developer at MicroSoft. Leading the support administration and quality controlling of products submited by the global freelance authors.
-                                </p>
-                                <a href="#" class="php-color">https:example.com</a>
-                            </div>
-                            <!-- /.experience-item -->
-
-                            <div class="experience-item exp1">
-                                <h2 class="title">Web Designer at Microsoft Inc.</h2>
-                                <ul class="post-mate ul-li">
-                                    <li class="photoshop-color">Jun 2016 - <span class="current photoshop-bg">Current</span></li>
-                                </ul>
-                                <!-- /.post-mate -->
-                                <p>
-                                    Working as Web Developer at MicroSoft. Leading the support administration and quality controlling of products submited by the global freelance authors.
-                                </p>
-                                <a href="#" class="photoshop-color">https:example.com</a>
-                            </div>
-                            <!-- /.experience-item -->
-
-                            <div class="experience-item exp2">
-                                <h2 class="title">Web Designer at Microsoft Inc.</h2>
-                                <ul class="post-mate ul-li">
-                                    <li class="jquery-color">Jun 2015 - july 2016</li>
-                                </ul>
-                                <!-- /.post-mate -->
-                                <p>
-                                    Working as Web Developer at MicroSoft. Leading the support administration and quality controlling of products submited by the global freelance authors.
-                                </p>
-                                <a href="#" class="jquery-color">https:example.com</a>
-                            </div>
-                            <!-- /.experience-item -->
-
-                            <div class="experience-item exp3">
-                                <h2 class="title">Web Designer at Microsoft Inc.</h2>
-                                <ul class="post-mate ul-li">
-                                    <li class="php-color">April 2014 - November 2015</li>
-                                </ul>
-                                <!-- /.post-mate -->
-                                <p>
-                                    Working as Web Developer at MicroSoft. Leading the support administration and quality controlling of products submited by the global freelance authors.
-                                </p>
-                                <a href="#" class="php-color">https:example.com</a>
-                            </div>
-                            <!-- /.experience-item -->
-
+                            @endforeach
                         </div>
                         <!-- border-left -->
                     </div>
